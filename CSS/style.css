@@ -1,0 +1,412 @@
+header nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+nav ul li {
+  list-style: none;
+  color: black;
+}
+nav ul {
+  display: flex;
+  gap: 30px;
+}
+nav ul li .fa-brands {
+  margin: 0 5px;
+  font-size: 18px;
+  color: grey;
+}
+
+.header-content {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../Assets/Guide.webp);
+  height: 50vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header-content h1 {
+  color: white;
+}
+.header-content p {
+  width: 900px;
+  color: white;
+}
+.header-content button {
+  color: white;
+  background-color: blue;
+  border: 10px solid blue;
+  padding: 10px 30px;
+  margin: 30px;
+  height: 50px;
+}
+
+.What-1 {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.What-1 p {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+.What-1 h1 {
+  color: black;
+  text-align: center;
+}
+.What-1 hr {
+  border: 2px solid skyblue;
+  width: 100px;
+  margin: 10px 0;
+}
+
+.What-1 p {
+  gap: 5px;
+}
+
+
+.Wee {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  color: black;
+  padding: 50px;
+  gap: 20px;
+  justify-content: center;
+}
+.Row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-around;
+  width: 100%;
+  background: white;
+  color: black;
+  align-items: center;
+}
+.Sato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  gap: 30px;
+  padding: 10px;
+  border: 1px soli black;
+}
+.Sato p {
+  color: black;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.Kazi{
+  text-align: center;
+  padding: 50px 20px;
+
+}
+.Serv {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.Serv p {
+  color: black;
+  font-size: 20px;
+}
+.Serv h1 {
+  color: black;
+}
+.Serv hr {
+  border: 2px solid skyblue;
+  width: 90px;
+  margin: 10px 0;
+}
+
+.Serv p {
+  gap: 100px;
+}
+.Kazi .row{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  width: 100%;
+}
+.col{
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  text-align: left;
+  width: 300px;
+  
+
+}
+.col .fa-solid{
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: skyblue;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start
+}
+.col h1{
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: black;
+  text-decoration: none;
+
+}
+.col p{
+  font-size: 15px;
+}
+.Test {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.Test p {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+.Test h1 {
+  color: black;
+  text-align: center;
+}
+.Test hr {
+  border: 2px solid skyblue;
+  width: 90px;
+  margin: 10px 0;
+}
+
+.Test p {
+  gap: 5px;
+}
+
+.Clients{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  color: black;
+  padding: 50px;
+  gap: 10px;
+  justify-content: center;
+  
+}
+.What {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-around;
+  width: 100%;
+  background: white;
+  color: black;
+  align-items: center;
+  width: 100%;
+
+}
+.loc  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid black;
+}
+.loc p{
+  color: black;
+} 
+.loc h1{
+  color: black;
+}
+.loc h2{
+  color: black;
+}
+.loc img{
+  width: 60px;
+  height: 60px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.Cons {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.Cons p {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+.Cons h1 {
+  color: black;
+  text-align: center;
+}
+.Cons hr {
+  border: 2px solid skyblue;
+  width: 100px;
+  margin: 10px 0;
+}
+
+.Cons p {
+  gap: 5px;
+}
+.Wht {
+  display: flex;
+  flex-direction:row;
+  gap: 10px;
+  justify-content: space-around;
+  width: 100%;
+  background: white;
+  color: black;
+  align-items: center;
+  margin: 20px;
+  box-shadow: 50px;
+}
+.Tr{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  gap: 8px;
+  padding:50px;
+  border:1px solid black;
+  text-align: center;
+  
+}
+.Tr p{
+  color: black;
+} 
+.Tr h1{
+  color: black;
+}
+.Tr h2{
+  color: black;
+}
+.Tr img{
+  width:100px;
+  height: 90px;
+  border:1px solid white;
+  border-radius: 50%;
+
+}
+.Call{
+  width: 100%;
+  margin: 20px;
+  align-items: center;
+  display: flex;
+
+  flex-direction: column;
+}
+.Cont {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -1px;
+  gap: 1px;
+}
+.Cont p {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  
+}
+.Cont h1 {
+  color: black;
+  text-align: center;
+}
+.Cont hr {
+  border: 2px solid skyblue;
+  width: 100px;
+  margin: 10px 0;
+}
+
+.Cont p {
+  gap: 5px;
+}
+.Email{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.Loca{
+padding: 20px;
+box-shadow: rgba(0, 0, 0, 0.5);
+border-radius: 10px;
+text-align: left;
+display: flex;
+align-items: flex-start;
+gap: 10px;
+}
+.Loca .fa-solid, .fa-regular{
+  font-size: 28px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  color: white;
+}
+@media (max-width: 981px) {
+  nav ul {
+    flex-direction: column;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    gap: 2px;
+  }}
+  nav h1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .header-content p {
+    width: 100%;
+    margin: 10px 20px !important;
+    text-align: center !important;
+  }
+  .header-content{
+    margin-top: 200px;
+  }
+}
+@media (max-width: 800px) {
+  .Row{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+  }
+}
+@media(max-width:800px){
+
+  .Serv{
+    text-align: center;
+  }
+}
+
+  
+
